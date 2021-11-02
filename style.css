@@ -1,9 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }
 
-.container{
+.container1, .container2{
     width: 1300px;
     margin: auto;
 }
@@ -13,6 +13,7 @@ body{
     position: relative;
     display: inline-block;
     float: left;
+    margin-bottom: 50px;
 
 }
 
@@ -33,28 +34,48 @@ body{
 
 .item > .heart{
     position: absolute;
-    right: 16%;
+    right: 3%;
     top: 2%;
     background-color: white;
-    font-size: 50px;
-    width: 64px;
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
 }
-
 
 .img{
     height: 600px;
 }
 
-.item > .discount{
+.item > .discount, .sost{
     position: absolute;
-    bottom: 12%;
+    bottom: 13%;
     left: 0;
     background-color: red;
+    color: white;
 }
 
 .sost{
     position: absolute;
-    bottom: 12%;
-    left: 8%;
+    bottom: 13%;
+    left: 10%;
     background-color: green;
+    color: white;
+}
+
+.marca{
+    color: grey;
+    font-size: 12px;
+}
+
+.info{
+    font-weight: bold;
+}
+
+.prezzo-nuovo{
+    color: red;
+    margin-right: 5px;
+}
+
+.prezzo-vecchio{
+    text-decoration: line-through
 }

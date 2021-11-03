@@ -19,6 +19,7 @@ body{
     position: relative;
     display: inline-block;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .img >.heart{
@@ -48,10 +49,12 @@ body{
     height: 600px;
     position: absolute;
     left: 0;
+    z-index: -1;
 }
 
-.img:hover{
+.item:hover .img{
     position: relative;
+    z-index: -2;
 }
 
 .item > .discount, .sost{
